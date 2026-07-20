@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Bead Pop</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a2e;
+      --muted: #555;
+      --accent: #d4386c;
+      --border: #eee;
+      --card: #faf7f9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14121a;
+        --fg: #ece8f0;
+        --muted: #a89fb0;
+        --accent: #ff6fa3;
+        --border: #2a2633;
+        --card: #1c1926;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 4px;
+      color: var(--accent);
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 36px;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 40px 0 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    h3 { font-size: 1.05rem; margin: 24px 0 8px; }
+    a { color: var(--accent); }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th { color: var(--accent); }
+    code {
+      background: var(--card);
+      padding: 1px 6px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <div class="updated">Bead Pop &middot; Last updated: July 20, 2026</div>
+
+    <p>
+      This Privacy Policy explains how <strong>Bead Pop</strong> ("the App", "we", "us", or "our")
+      collects, uses, and protects information when you use our mobile game. By using Bead Pop, you
+      agree to the practices described below.
+    </p>
+
+    <div class="card">
+      <strong>In short:</strong> Bead Pop is a puzzle game. You can play without giving us any
+      personal identifiers. You may optionally link a Google or Apple account to sync progress across
+      devices, which shares your email with us. We use anonymous accounts to save your progress in the cloud,
+      a payments provider to handle optional purchases, and an advertising provider to show ads (which
+      you can remove with a Premium purchase). We do not sell your personal information.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+
+    <h3>1.1 Information you provide</h3>
+    <p>
+      Bead Pop does not require you to create an account to play. Optionally, you may link a
+      <strong>Google or Apple account</strong> (Settings &rarr; Account) to save your progress and
+      restore it on another device. If you choose to link an account, we receive the
+      <strong>email address</strong> associated with that provider, used solely to identify and sync
+      your saved game data. Linking is entirely optional and you can play the full game without it.
+      We do not collect your phone number or physical address.
+    </p>
+
+    <h3>1.2 Game data (cloud sync)</h3>
+    <p>
+      To save and synchronize your progress across sessions and devices, the App creates an
+      <strong>anonymous account</strong> through our backend provider (Supabase). This account is not
+      linked to your real-world identity. The following gameplay data is stored:
+    </p>
+    <ul>
+      <li>Level unlock status and best completion times</li>
+      <li>In-game virtual currency balances (coins and hints)</li>
+      <li>Daily challenge streak and last-completed date</li>
+      <li>Premium entitlement status</li>
+      <li>Preferences such as whether sound is enabled</li>
+    </ul>
+
+    <h3>1.3 Purchase data</h3>
+    <p>
+      When you make an optional in-app purchase (hint packs, coin packs, or Premium subscriptions),
+      the transaction is processed by <strong>the Apple App Store or Google Play Store</strong> and by
+      our purchase-management provider, <strong>RevenueCat</strong>. We do <em>not</em> receive or
+      store your credit card number or full payment details. We receive a purchase receipt and an
+      anonymous purchaser identifier used to grant your entitlements.
+    </p>
+
+    <h3>1.4 Advertising data</h3>
+    <p>
+      Bead Pop displays ads through <strong>Google AdMob</strong>. To serve ads, AdMob and its
+      partners may collect device-level information such as a device advertising identifier
+      (IDFA / Android Advertising ID), IP address, device type, and general usage/interaction data.
+      Purchasing <strong>Premium removes all ads</strong>, after which no further ad requests are made.
+    </p>
+
+    <h3>1.5 Local data on your device</h3>
+    <p>
+      Some settings and cached progress are stored locally on your device (via on-device storage and
+      local notifications). This data stays on your device unless synced as described above.
+    </p>
+
+    <h2>2. How We Use Information</h2>
+    <ul>
+      <li>To save your game progress and let you continue where you left off</li>
+      <li>To synchronize progress across your devices</li>
+      <li>To process and restore optional purchases and grant Premium benefits</li>
+      <li>To send local reminder notifications for the daily challenge (only if you allow notifications)</li>
+      <li>To display and measure advertising (unless you have Premium)</li>
+      <li>To maintain, secure, and improve the App</li>
+    </ul>
+
+    <h2>3. Third-Party Services</h2>
+    <p>The App relies on the following third-party services, each governed by its own privacy policy:</p>
+    <table>
+      <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+      <tr>
+        <td>Supabase</td>
+        <td>Anonymous accounts &amp; cloud progress storage</td>
+        <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>RevenueCat</td>
+        <td>In-app purchase management</td>
+        <td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>Google AdMob</td>
+        <td>Advertising</td>
+        <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+      </tr>
+      <tr>
+        <td>Apple App Store / Google Play</td>
+        <td>Payment processing &amp; app distribution</td>
+        <td>
+          <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a> /
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>
+        </td>
+      </tr>
+    </table>
+
+    <h2>4. Advertising Choices</h2>
+    <p>
+      You can limit ad personalization at any time through your device settings:
+    </p>
+    <ul>
+      <li><strong>iOS:</strong> Settings &rarr; Privacy &amp; Security &rarr; Tracking, and Settings &rarr; Privacy &amp; Security &rarr; Apple Advertising.</li>
+      <li><strong>Android:</strong> Settings &rarr; Privacy &rarr; Ads (reset or delete advertising ID).</li>
+    </ul>
+    <p>Purchasing Premium disables ads entirely.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>
+      We retain your anonymous game data for as long as your account remains active so your progress
+      is preserved. Because accounts are anonymous, uninstalling the App without a linked identity may
+      make your saved cloud data unrecoverable. You may request deletion of your data as described in
+      Section 8.
+    </p>
+
+    <h2>6. Data Security</h2>
+    <p>
+      We use industry-standard measures to protect data transmitted to and stored by our providers,
+      including encryption in transit. However, no method of transmission or storage is completely
+      secure, and we cannot guarantee absolute security.
+    </p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>
+      Bead Pop is a general-audience game and is not directed at children under the age of 13 (or the
+      applicable minimum age in your jurisdiction). We do not knowingly collect personal information
+      from children. If you believe a child has provided us with personal information, please contact
+      us so we can remove it.
+    </p>
+
+    <h2>8. Your Rights</h2>
+    <p>
+      Depending on your location (for example, under the GDPR or CCPA), you may have the right to
+      access, correct, or delete your data, or to object to certain processing.
+    </p>
+    <p>
+      <strong>You can delete your account and all associated data directly in the app</strong> at any
+      time: go to <strong>Settings &rarr; Account &rarr; Delete account</strong>. This permanently
+      erases your cloud profile (progress, virtual currency balances, and any linked Google/Apple
+      identity) and cannot be undone. For any other request, contact us at the email below.
+    </p>
+
+    <h2>9. International Data Transfers</h2>
+    <p>
+      Our providers may process and store data on servers located outside your country of residence.
+      By using the App, you consent to such transfers in accordance with this Policy and the providers'
+      own safeguards.
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Changes will be posted on this page with an
+      updated "Last updated" date. Your continued use of the App after changes take effect constitutes
+      acceptance of the revised Policy.
+    </p>
+
+    <h2>11. Contact Us</h2>
+    <p>
+      If you have any questions about this Privacy Policy or your data, contact us at:
+    </p>
+    <p>
+      <strong>Email:</strong> <a href="mailto:bilaly.cissokho21@gmail.com">bilaly.cissokho21@gmail.com</a>
+    </p>
+
+    <footer>
+      &copy; 2026 Bead Pop. All rights reserved. &middot; App identifiers:
+      <code>com.galsenboy.bead-pop</code> (iOS), <code>com.galsenboy.beadpop</code> (Android).
+    </footer>
+  </div>
+</body>
+</html>

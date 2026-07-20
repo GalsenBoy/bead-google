@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delete Your Account — Bead Pop</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a2e;
+      --muted: #555;
+      --accent: #d4386c;
+      --danger: #e23b3b;
+      --border: #eee;
+      --card: #faf7f9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14121a;
+        --fg: #ece8f0;
+        --muted: #a89fb0;
+        --accent: #ff6fa3;
+        --danger: #ff6b6b;
+        --border: #2a2633;
+        --card: #1c1926;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 4px;
+      color: var(--accent);
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 36px;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 40px 0 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    a { color: var(--accent); }
+    ol { padding-left: 22px; }
+    ol li { margin: 10px 0; }
+    ul { padding-left: 22px; }
+    ul li { margin: 6px 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .steps {
+      counter-reset: step;
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+    .steps li {
+      position: relative;
+      padding: 14px 16px 14px 58px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    .steps li::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.95rem;
+    }
+    code {
+      background: var(--card);
+      padding: 1px 6px;
+      border-radius: 5px;
+      font-size: 0.9em;
+    }
+    .warn {
+      border-left: 4px solid var(--danger);
+      background: var(--card);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .warn strong { color: var(--danger); }
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Delete Your Account</h1>
+    <div class="updated">Bead Pop &middot; Last updated: July 20, 2026</div>
+
+    <p>
+      This page explains how to delete your <strong>Bead Pop</strong> account and the data associated
+      with it. You can do this yourself, directly inside the app, at any time.
+    </p>
+
+    <h2>Delete your account in the app</h2>
+    <ol class="steps">
+      <li>Open <strong>Bead Pop</strong> on your device.</li>
+      <li>Go to the <strong>Settings</strong> tab (the gear icon in the bottom bar).</li>
+      <li>Scroll to the <strong>Account</strong> section.</li>
+      <li>Tap <strong>Delete account</strong>.</li>
+      <li>Confirm by tapping <strong>Delete</strong> in the dialog that appears.</li>
+    </ol>
+    <p>
+      Your account and its data are removed immediately. The app then starts fresh as a new guest.
+    </p>
+
+    <div class="warn">
+      <strong>This is permanent.</strong> Deleting your account cannot be undone. Your progress,
+      virtual currency, and any linked sign-in cannot be recovered afterward.
+    </div>
+
+    <h2>What gets deleted</h2>
+    <p>When you delete your account, we permanently erase:</p>
+    <ul>
+      <li>Your cloud profile and game progress (level unlocks and best times)</li>
+      <li>Your in-game virtual currency balances (coins and hints)</li>
+      <li>Your daily challenge streak and history</li>
+      <li>Any linked Google or Apple sign-in identity</li>
+      <li>Your locally stored game data on the device</li>
+    </ul>
+
+    <h2>What this does not affect</h2>
+    <ul>
+      <li>
+        <strong>Purchases and subscriptions.</strong> In-app purchases are managed by the Apple App
+        Store or Google Play, not by Bead Pop. To cancel or request a refund for a subscription, use
+        your store account's subscription settings. Deleting your Bead Pop account does not cancel a
+        store subscription.
+      </li>
+      <li>
+        <strong>Store account.</strong> Your Apple or Google account itself is not affected — only the
+        link between it and Bead Pop is removed.
+      </li>
+    </ul>
+
+    <h2>Can't access the app?</h2>
+    <p>
+      If you are unable to open the app to complete these steps, you can request account and data
+      deletion by email. Please write from the address you may have linked, and include any detail
+      that helps us locate your data:
+    </p>
+    <p>
+      <strong>Email:</strong> <a href="mailto:bilaly.cissokho21@gmail.com">bilaly.cissokho21@gmail.com</a>
+    </p>
+    <p>
+      We will process verified deletion requests within 30 days.
+    </p>
+
+    <h2>More information</h2>
+    <p>
+      For details on what data we process and why, see our
+      <a href="./privacy-policy.html">Privacy Policy</a>.
+    </p>
+
+    <footer>
+      &copy; 2026 Bead Pop. All rights reserved. &middot; App identifiers:
+      <code>com.galsenboy.bead-pop</code> (iOS), <code>com.galsenboy.beadpop</code> (Android).
+    </footer>
+  </div>
+</body>
+</html>
